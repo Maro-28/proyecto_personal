@@ -5,3 +5,4 @@ require_once('libs/model.php');
 require_once('libs/view.php');
 
 $app = new App();
+?>
