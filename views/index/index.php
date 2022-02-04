@@ -1,7 +1,7 @@
 <?php
-include_once('Part/head.html');
-include_once('Part/Navbar.html');
-include_once('Part/sidebar.html');
+include_once('views/head.php');
+include_once('views/Navbar.php');
+include_once('views/sidebar.php');
 ?>
 
 <div class="content-wrapper">
@@ -122,5 +122,5 @@ include_once('Part/sidebar.html');
 
 </div>
 <?php
-include_once('Part/footer.html');
+include_once('views/footer.php');
 ?>
