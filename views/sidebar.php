@@ -19,23 +19,36 @@
 
     <!-- Sidebar Menu -->
     <nav class="mt-2">
+    
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
         <li class="nav-item">
           <a href="#" class="nav-link">
-          <i class="nav-icon far fa-plus-square"></i>
+          <i class="fa-solid fa-building"></i><ion-icon name="home-outline"></ion-icon></i>
             <p>
-              Agragar
+              Sucursal
               <i class="fas fa-angle-left right"></i>
             </p>
           </a>
+          <!-- Inicio de sub menu -->
           <ul class="nav nav-treeview">
             <li class="nav-item">
               <a href="<?php echo constant('URL'); ?>cargar" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Sucursales</p>
+                <p>Agregar</p>
               </a>
             </li>
           </ul>
+          <!-- Fin de sub menu -->
+          <!-- Inicio de sub menu -->
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="<?php echo constant('URL'); ?>consulta" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Consultar</p>
+              </a>
+            </li>
+          </ul>
+          <!-- Fin de sub menu -->
         </li>
       </ul>
     </nav>

@@ -25,6 +25,9 @@
 </script>
 <!-- Bootstrap 4 -->
 <script src="<?php echo constant('URL');?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Icon -->
+<script src="https://kit.fontawesome.com/e733e5b77c.js" crossorigin="anonymous"></script>
+
 <!-- ChartJS -->
 <script src="<?php echo constant('URL');?>plugins/chart.js/Chart.min.js"></script>
 <!-- Sparkline -->
@@ -49,5 +52,6 @@
 <script src="<?php echo constant('URL');?>dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="<?php echo constant('URL');?>dist/js/pages/dashboard.js"></script>
+
 </body>
 </html>

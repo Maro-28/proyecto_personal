@@ -9,7 +9,7 @@ class Controller{
         $url = 'models/'.$model.'model.php';
         if(file_exists($url)){
             require $url;
-            $modelName = $model.'modelo';
+            $modelName = $model.'model';
             $this->model = new $modelName();
         }
     }

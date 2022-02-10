@@ -25,11 +25,11 @@ include_once('views/sidebar.php');
                 </div>
                 <!-- /.card-header -->
                 <!-- form start -->
-                <form action="<?php echo constant('URL');?>cargar/cargarSucursal" method="POST">
+                <form action="<?php echo constant('URL');?>sector/cargarSector" method="POST">
                     <div class="card-body">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Nueva Sucursal</label>
-                            <input type="text" class="form-control" id="" name="sucursal" placeholder="Cargar sucursal">
+                            <label for="exampleInputEmail1">Nuevo Sector</label>
+                            <input type="text" class="form-control" id="" name="sector" placeholder="Cargar sector">
                         </div>
                     </div>
                     <!-- /.card-body -->
