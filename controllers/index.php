@@ -6,4 +6,5 @@ class index extends Controller{
        $this->view->render('index/index');
     }
 
+
 }
